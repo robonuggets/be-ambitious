@@ -26,10 +26,10 @@ When you invoke it, the skill:
 2. Picks the types that fit your task (usually one or two, not all three).
 3. Writes the ambitious plan: a 3-rung ladder for Altitude, Felix's four expert questions for Depth, and the crew for Range.
 4. Lists the data, tools and access the plan needs, and what's missing.
-5. Rewrites your prompt at that level, ending with an outside check and what counts as a pass.
-6. Does the work, if you handed it a task. Stops after the rewrite, if you handed it a prompt to improve.
+5. Rewrites your prompt at that level. The prompt states a specific hard target, cites real proof that it can be done when there is any, gives permission to miss, and asks for an early result the check can score. It tells the worker to mark unknown facts as TODOs and to ask you before risky actions, and it ends with an outside check and what counts as a pass.
+6. Does the work, if you handed it a task, then reports the answer first and grades it against the target as written. Stops after the rewrite, if you handed it a prompt to improve.
 
-It holds a few hard lines from the article: better, not bigger. Do what the expert does, not role play. Never grade your own work. Treat the hard target as reasonable, and report honestly against the check.
+It holds a few hard lines from the article: better, not bigger. Do what the expert does, not role play. Never grade your own work. Treat the hard target as reasonable, and report honestly against the check. It adds one more: ambition raises the standard, not the permissions.
 
 ## Install
 
@@ -59,7 +59,7 @@ Type `/be-ambitious` and your task:
 /be-ambitious make our quarterly business review deck from the sales CSVs in /data
 ```
 
-- **A task to do** (fix, build, analyse): you get the plan and the rewritten prompt, then the agent starts on the rung it picked. It asks first only if the rung replaces what you asked for, costs money, or can't be undone.
+- **A task to do** (fix, build, analyse): you get the plan and the rewritten prompt, then the agent starts on the rung it picked. It asks first only if the rung replaces what you asked for, costs money, changes a shared system (CI, production, a public repo), or cannot be undone.
 - **A prompt to improve** ("rewrite this prompt", or a prompt meant for another tool): you get the plan and the rewritten prompt, and it stops.
 - **No task:** `/be-ambitious` on its own uses your last request.
 
